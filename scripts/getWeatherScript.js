@@ -29,7 +29,7 @@ function getWeather()
 {
     let xhr = new XMLHttpRequest()
 
-    xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?lat=" + Latitude + "&lon=" + Longitude + "&appid=" + appid + "&units=metric");
+    xhr.open("GET", "https://api.openweathermap.org/data/2.5/weather?lat=" + Latitude + "&lon=" + Longitude + "&appid=" + appid + "&units=metric");
     xhr.onload = () => {
         if (xhr.readyState === 4)
         {
