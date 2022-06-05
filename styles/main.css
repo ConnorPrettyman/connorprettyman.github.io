@@ -6,5 +6,21 @@
 html {
     font-family: "IBM Plex Sans", sans-serif;
     text-align: center;
-    
+    // background-color: #1f1f1f;
+    // color: #ffffff;
+}
+
+table {
+        text-align: left;
+}
+
+.ptable {
+    position: absolute;
+    left: 50%;
+    // top: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    // width: 25%;
+    // max-width: 500px;
+    // min-width: 250px;
 }
